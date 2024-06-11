@@ -1,0 +1,68 @@
+ poly1:  +4x^6 +3x^4 +2x^2
+
+ poly2:  +4x^6 +3x^4 +2x^2
+
+ poly3:  +1
+
+poly4 declared.
+ poly4:  0
+
+
+ 0
+ 0
+ 2
+ 0
+ 3
+ 0
+ 4
+
+Starting tests for = operator...
+1.poly5:  +4x^4 +3x^3 +2x^2
+ vs  poly6:  +4x^4 +3x^3 +2x^2
+
+
+Starting tests for == and != operators...
+2.poly5:  +4x^4 +3x^3 +2x^2
+ vs  poly7 :  +4x^4 +3x^3 +2x^2
+
+poly7 == poly5 is true!
+
+Starting tests for + and += operators...
+3.poly5 ( +4x^4 +3x^3 +2x^2
+) + poly8 ( +1x^5
+) =  +1x^5 +4x^4 +3x^3 +2x^2
+
+4.poly5 ( +4x^4 +3x^3 +2x^2
+) + poly9 ( +1x^5
+) =  +5x^4 +3x^3 +2x^2
+
+5.After poly5 += poly9, poly5 =  +5x^4 +3x^3 +2x^2
+
+Starting tests for - and -= operators...
+6.poly7 ( +4x^4 +3x^3 +2x^2
+) - poly10 ( +1x^4 +1x^3 +1x^2
+) =  +3x^4 +2x^3 +1x^2
+
+7.After poly7 -= poly10, poly7 =  +3x^4 +2x^3 +1x^2
+
+
+Starting tests for * and *= operators...
+8.poly11 ( +4x^4 +3x^3 +2x^2
+) * poly8 ( +1x^5
+) =  +4x^9 +3x^8 +2x^7
+
+9.poly11 ( +4x^4 +3x^3 +2x^2
+) * poly7 ( +3x^4 +2x^3 +1x^2
+) =  +12x^8 +17x^7 +16x^6 +7x^5 +2x^4
+
+10.After poly11 -= poly7, poly11 =  +12x^8 +17x^7 +16x^6 +7x^5 +2x^4
+
+
+ poly12:  0
+
+ poly13:  0
+
+ poly14:  0
+
+ poly15:  0
+
